@@ -1,0 +1,4 @@
+{
+	"last_test_file": "planet.feature",
+	"last_test_run": "cd '/Users/joshwalsh/Sites/toroid/' && cucumber --no-color features/planet.feature"
+}

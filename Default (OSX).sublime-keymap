@@ -1,0 +1,13 @@
+[
+    // Remap ctrl-c to be escape
+    { "keys": ["ctrl+c"], "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.vintage_ctrl_keys", "operand": true }
+        ]
+    },
+    
+    { "keys": ["super+ctrl+m"], "command": "list_rails_models" },
+    { "keys": ["super+ctrl+c"], "command": "list_rails_controllers" },
+    { "keys": ["super+ctrl+v"], "command": "list_rails_views" }
+]
